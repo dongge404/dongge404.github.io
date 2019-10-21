@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>春风吻过你的脸</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://dongge404.github.io/"/>
+  <updated>2019-10-20T05:59:46.717Z</updated>
+  <id>https://dongge404.github.io/</id>
+  
+  <author>
+    <name>东锅锅</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>时间是人类进步的本钱!</title>
+    <link href="https://dongge404.github.io/2019/10/20/%E7%8F%8D%E6%83%9C%E6%97%B6%E9%97%B4/%E6%97%B6%E9%97%B4%E6%98%AF%E4%BA%BA%E7%B1%BB%E8%BF%9B%E6%AD%A5%E7%9A%84%E6%9C%AC%E9%92%B1/"/>
+    <id>https://dongge404.github.io/2019/10/20/珍惜时间/时间是人类进步的本钱/</id>
+    <published>2019-10-20T04:23:22.000Z</published>
+    <updated>2019-10-20T05:59:46.717Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;​            &lt;strong&gt;世界上最快而又最慢，最长而又最短，最平凡而又最珍贵，最容易被忽视而又最令人后悔的就是时间。——高尔基&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;​           
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="时间" scheme="https://dongge404.github.io/tags/%E6%97%B6%E9%97%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇博客</title>
+    <link href="https://dongge404.github.io/2019/10/18/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://dongge404.github.io/2019/10/18/我的第一篇博客/</id>
+    <published>2019-10-18T06:41:01.330Z</published>
+    <updated>2019-10-19T06:37:18.171Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;​                                   
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://dongge404.github.io/2019/10/16/hello-world/"/>
+    <id>https://dongge404.github.io/2019/10/16/hello-world/</id>
+    <published>2019-10-16T11:41:52.137Z</published>
+    <updated>2019-10-16T11:41:52.137Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
