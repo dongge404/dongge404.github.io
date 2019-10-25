@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dongge404.github.io/"/>
-  <updated>2019-10-24T12:35:02.584Z</updated>
+  <updated>2019-10-25T05:19:59.722Z</updated>
   <id>https://dongge404.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>JavaScript简介</title>
+    <link href="https://dongge404.github.io/2019/10/25/JavaScript/JavaScript%E7%AE%80%E4%BB%8B/"/>
+    <id>https://dongge404.github.io/2019/10/25/JavaScript/JavaScript简介/</id>
+    <published>2019-10-25T02:46:29.072Z</published>
+    <updated>2019-10-25T05:19:59.722Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;一、JavaScript简述&quot;&gt;&lt;a href=&quot;#一、JavaScript简述&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaScript" scheme="https://dongge404.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我们为什么要学习前端？</title>
     <link href="https://dongge404.github.io/2019/10/24/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/"/>
     <id>https://dongge404.github.io/2019/10/24/为什么学习前端/为什么要学习前端/</id>
     <published>2019-10-24T12:19:54.822Z</published>
-    <updated>2019-10-24T12:35:02.584Z</updated>
+    <updated>2019-10-24T12:39:23.045Z</updated>
     
     <summary type="html">
     
