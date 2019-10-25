@@ -362,7 +362,7 @@
                     
                     <div class="info-break-policy">
                         <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        6 分
+                        5 分
                     </div>
                     
                 
@@ -376,7 +376,8 @@
                 <h3 id="一、JavaScript简述"><a href="#一、JavaScript简述" class="headerlink" title="一、JavaScript简述"></a>一、JavaScript简述</h3><p>&ensp;&ensp;JavaScript是web页面中的一种脚本编程语言，也是一种通用的、跨平台、基于对象和事件驱动并具有安全性的脚本语言。它不需要进行编译，而是直接嵌入HTML页面中，把静态页面转变为支持用户交互并响应相应事件的动态页面。</p>
 <p>&ensp;&ensp;<strong>1、JavaScript的特点</strong></p>
 <p>​         <strong>解释性</strong>：JavaScript不同于其他的编程语言，它是一种解释性的编程语言，它的源码不需要经过编译，可以直接在浏览器中运行时被解释。</p>
-<pre><code>**基于对象**：JavaScript是一种基于对象的语言，它能够运行自己创建的对象。</code></pre><p>​         <strong>事件驱动</strong>：JavaScript可以直接对用户的输入做出反应，无序经过web服务器，它对用户的响应，是以驱动的方式进行的，所谓事件驱动吗，就是指在主页中执行了某种操作所产生的动作，此动作就被称为“事件”。比如按下鼠标、移窗口、选择菜单等都可以视为事件</p>
+<p>​        <strong>基于对象</strong> : JavaScript是一种基于对象的语言，它能够运行自己创建的对象。</p>
+<p>​         <strong>事件驱动</strong>：JavaScript可以直接对用户的输入做出反应，无序经过web服务器，它对用户的响应，是以驱动的方式进行的，所谓事件驱动吗，就是指在主页中执行了某种操作所产生的动作，此动作就被称为“事件”。比如按下鼠标、移窗口、选择菜单等都可以视为事件</p>
 <p>​         <strong>跨平台</strong>：JavaScript语言依赖于浏览器本身，与操作环境无关，只要带有浏览器的计算机并且支持JavaScript就可以正确执行。</p>
 <p>​         <strong>安全性</strong>：可以保护数据的丢失。</p>
 <p>&ensp;&ensp;<strong>2、JavaScript的应用</strong></p>
@@ -385,9 +386,8 @@
 <p>​        <strong>窗口的应用；</strong></p>
 <p>​        <strong>文字特效；</strong></p>
 <h3 id="ensp-ensp-二、web页面使用JavaScript的三种方法"><a href="#ensp-ensp-二、web页面使用JavaScript的三种方法" class="headerlink" title="&ensp;&ensp; 二、web页面使用JavaScript的三种方法"></a>&ensp;&ensp; 二、web页面使用JavaScript的三种方法</h3><p>&ensp;&ensp;<strong>1、在HTML页面中直接嵌入JavaScript代码；</strong></p>
-<p>&ensp;&ensp;如果要直接在页面中嵌入JavaScript代码，可以使用以下标签：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;.......&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
+<p>如果要直接在页面中嵌入JavaScript代码，可以使用以下标签：</p>
+<p><code>&lt;script&gt;.......&lt;/script&gt;</code></p>
 <p>   &ensp;&ensp;这个标签既可以放在<body>标签中，也可以放在<head>标签中。</p>
 <p>&ensp;&ensp;该标签的属性及其说明如下表：、</p>
 <p>&ensp;&ensp;</p>
@@ -417,48 +417,31 @@
 </tbody></table>
 <p>&ensp;&ensp;<strong>注意：</strong>type属性在HTML4.0版本就已经取代了language属性</p>
 <p>&ensp;&ensp;1、language属性</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script  language=&quot;JavaScript1.5&quot;&gt;</span><br></pre></td></tr></table></figure>
-
+<p><code>&lt;script  language=&quot;JavaScript1.5&quot;&gt;</code></p>
 <p>&ensp;&ensp;<strong>注意：</strong>如果不定义language属性，浏览器默认脚本语言为JavaScript1.0</p>
 <p>&ensp;&ensp;2、src属性</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script  src=&quot;01.js&quot;&gt;</span><br></pre></td></tr></table></figure>
-
+<p><code>&lt;script  src=&quot;01.js&quot;&gt;</code></p>
 <p>&ensp;&ensp;src属性用来指定外部脚本文件事物路径，其扩展名为.js。</p>
 <p>&ensp;&ensp;3、type属性</p>
 <p>&ensp;&ensp;type属性用来指定HTML文档使用脚本语言及其版本，自HTML4.0版本开始推荐使用type属性来代替language属性，type属性的使用格式如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=&quot;text/JavaScript&quot;&gt;</span><br></pre></td></tr></table></figure>
-
-
-
+<p><code>&lt;script type=&quot;text/JavaScript&quot;&gt;</code></p>
 <p>&ensp;&ensp;4、defer属性</p>
 <p>&ensp;&ensp;defer属性的作用是当文档加载完毕以后再执行脚本语言。当脚本语言不需要立即运行时，可以设置defer属性，浏览器不必等待脚本语言加载，这样页面会加载的更快。defer属性到的适应格式如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script defer&gt;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
+<p><code>&lt;script defer&gt;</code></p>
 <p>&ensp;&ensp;<strong>2、连接外部JavaScript文件</strong></p>
 <p>&ensp;&ensp;如果代码比较复杂或是同一段代码可以被多个页面所使用，则可以将这些代码放置在一个单独的文件中，(保存文件的扩展名为.js)，然后在需要使用该代码的web页面中连接该JavaScript文件即可。在web页面中链接外部JavaScript文件语法格式如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=&quot;text/JavaScript&quot; src=&quot;JavaScript.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-
-
+<p><code>&lt;script type=&quot;text/JavaScript&quot; src=&quot;JavaScript.js&quot;&gt;&lt;/script&gt;</code></p>
 <p>&ensp;&ensp;<strong>3、作为标记的属性值使用</strong></p>
 <p>&ensp;&ensp;在JavaScript脚本程序中，有的JavaScript代码可能需要立即执行，而有的JavaScript代码可能需要单击某个链接或触发一些事件(如单击按钮)之后才会执行。</p>
 <p>&ensp;&ensp;<strong>（1）、通过“JavaScript:” 调用</strong></p>
 <p>&ensp;&ensp;在HTML中，可以通过”JavaScript:”的方式来调用JavaScript的函数和方法,示例代码如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;JavaScript:alert(&apos;您单击了这个超链接&apos;)&quot;&gt;请点击这里&lt;/a&gt;</span><br></pre></td></tr></table></figure>
-
+<p><code>&lt;a href=&quot;JavaScript:alert(&#39;您单击了这个超链接&#39;)&quot;&gt;</code>请点击这里</a>`</p>
 <p>&ensp;&ensp;上述代码中通过使用“JavaScript:”的方式调用alert()方法，但是该方法并不是在浏览器解析到“JavaScript:”时就立即执行，而是在单击链接时执行。</p>
 <p>&ensp;&ensp;<strong>（2）、与事件结合使用</strong></p>
 <p>&ensp;&ensp;JavaScript支持很多事件，而事件可以影响用户操作。比如鼠标左键、按下键盘或者移动鼠标等。与事件结合，可以调用执行JavaScript的函数和方法。实例代码如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=&quot;button&quot; value=&quot;单击按钮&quot; onclick=&quot;alert(&apos;您单击了这个按钮&apos;)&quot;/&gt;</span><br></pre></td></tr></table></figure>
-
-
-
+<p><code>&lt;input type=&quot;button&quot; value=&quot;单击按钮&quot; onclick=&quot;alert(&#39;您单击了这个按钮&#39;)&quot;/&gt;</code></p>
 <h3 id="ensp-ensp-三、JavaScript基本语法"><a href="#ensp-ensp-三、JavaScript基本语法" class="headerlink" title="&ensp;&ensp;三、JavaScript基本语法"></a>&ensp;&ensp;三、JavaScript基本语法</h3><p>&ensp;&ensp;1、<strong>执行顺序</strong></p>
-<p>&ensp;&ensp;<strong>JavaScript程序按照在HTML文件中出现的顺序逐行执行。</strong>如果需要在整个HTML文件中执行(如函数、全局变量等)，最好将JavaScript代码放在<head>……<meta name="generator" content="Hexo 4.0.0"></head>标签中。</p>
+<p>&ensp;&ensp;<strong>JavaScript程序按照在HTML文件中出现的顺序逐行执行。</strong>如果需要在整个HTML文件中执行(如函数、全局变量等)，最好将JavaScript代码放在head标签中。</p>
 <p>&ensp;&ensp;<strong>2、大小写敏感</strong></p>
 <p>&ensp;&ensp;JavaScript语言作为一门编程语言，它也就对大小写特别敏感。因此在输入语言的关键字、函数名、变量以及其他标识符时，都必须采用正确的大小写格式。</p>
 <p>&ensp;&ensp;<strong>3、空格与换行</strong></p>
@@ -470,8 +453,8 @@
 <p>&ensp;&ensp;（1）、可以解释某些程序的某些语句的作用和功能，是程序更容易理解，<strong>通常用于代码的解释说明；</strong></p>
 <p>&ensp;&ensp;（2）、可以用注释来暂时屏蔽某些语句，使浏览器对其暂时忽略，等需要时再取消注释，<strong>通常用于代码的调试。</strong></p>
 <p>&ensp;&ensp;在JavaScript中，提供了两种注释符号：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//   用于单行注释</span><br><span class="line">/*......*/   用于多行注释，它分为开始和结束两个部分</span><br></pre></td></tr></table></figure>
-
+<p><code>//   用于单行注释</code></p>
+<p><code>/*......*/   用于多行注释，它分为开始和结束两个部分</code></p>
 
             </div>
             <hr/>
