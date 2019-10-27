@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaScript简介, 春风吻过你的脸">
-    <meta name="description" content="一、JavaScript简述&amp;ensp;&amp;ensp;JavaScript是web页面中的一种脚本编程语言，也是一种通用的、跨平台、基于对象和事件驱动并具有安全性的脚本语言。它不需要进行编译，而是直接嵌入HTML页面中，把静态页面转变为支持用">
+    <meta name="keywords" content="HTML基础, 春风吻过你的脸">
+    <meta name="description" content="一、HTML概述1、什么是HTML​        超文本标记语言(Hyper Text Markup Language)，简称：HTML是一种用于创建网页的标准标记语言。        HTML语言是一种简易的文件交换标准，用于物理的文件">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>JavaScript简介 | 春风吻过你的脸</title>
+    <title>HTML基础 | 春风吻过你的脸</title>
     <link rel="icon" type="image/jpeg" href="/hua.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -304,13 +304,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        JavaScript简介
+                        HTML基础
                     </div>
                 </div>
             </div>
@@ -333,8 +333,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="../../../../../tags/JavaScript/">
-                                <span class="chip bg-color">JavaScript</span>
+                            <a href="../../../../../tags/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">
+                                <span class="chip bg-color">Web前端开发</span>
                             </a>
                         
                     </div>
@@ -348,21 +348,21 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-10-25
+                    2019-10-27
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        1.6k
+                        1.8k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        5 分
+                        6 分
                     </div>
                     
                 
@@ -373,88 +373,101 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="一、JavaScript简述"><a href="#一、JavaScript简述" class="headerlink" title="一、JavaScript简述"></a>一、JavaScript简述</h3><p>&ensp;&ensp;JavaScript是web页面中的一种脚本编程语言，也是一种通用的、跨平台、基于对象和事件驱动并具有安全性的脚本语言。它不需要进行编译，而是直接嵌入HTML页面中，把静态页面转变为支持用户交互并响应相应事件的动态页面。</p>
-<p>&ensp;&ensp;<strong>1、JavaScript的特点</strong></p>
-<p>​         <strong>解释性</strong>：JavaScript不同于其他的编程语言，它是一种解释性的编程语言，它的源码不需要经过编译，可以直接在浏览器中运行时被解释。</p>
-<p>​        <strong>基于对象</strong> : JavaScript是一种基于对象的语言，它能够运行自己创建的对象。</p>
-<p>​         <strong>事件驱动</strong>：JavaScript可以直接对用户的输入做出反应，无序经过web服务器，它对用户的响应，是以驱动的方式进行的，所谓事件驱动吗，就是指在主页中执行了某种操作所产生的动作，此动作就被称为“事件”。比如按下鼠标、移窗口、选择菜单等都可以视为事件</p>
-<p>​         <strong>跨平台</strong>：JavaScript语言依赖于浏览器本身，与操作环境无关，只要带有浏览器的计算机并且支持JavaScript就可以正确执行。</p>
-<p>​         <strong>安全性</strong>：可以保护数据的丢失。</p>
-<p>&ensp;&ensp;<strong>2、JavaScript的应用</strong></p>
-<p>​        <strong>验证用户输入的内容；</strong></p>
-<p>​        <strong>动画效果；</strong></p>
-<p>​        <strong>窗口的应用；</strong></p>
-<p>​        <strong>文字特效；</strong></p>
-<h3 id="ensp-ensp-二、web页面使用JavaScript的三种方法"><a href="#ensp-ensp-二、web页面使用JavaScript的三种方法" class="headerlink" title="&ensp;&ensp; 二、web页面使用JavaScript的三种方法"></a>&ensp;&ensp; 二、web页面使用JavaScript的三种方法</h3><p>&ensp;&ensp;<strong>1、在HTML页面中直接嵌入JavaScript代码；</strong></p>
-<p>如果要直接在页面中嵌入JavaScript代码，可以使用以下标签：</p>
-<p><code>&lt;script&gt;.......&lt;/script&gt;</code></p>
-<p>   &ensp;&ensp;这个标签既可以放在<body>标签中，也可以放在<head>标签中。</p>
-<p>&ensp;&ensp;该标签的属性及其说明如下表：、</p>
-<p>&ensp;&ensp;</p>
+                <h2 id="一、HTML概述"><a href="#一、HTML概述" class="headerlink" title="一、HTML概述"></a>一、HTML概述</h2><h4 id="1、什么是HTML"><a href="#1、什么是HTML" class="headerlink" title="1、什么是HTML"></a>1、什么是HTML</h4><p>​        <strong>超文本标记语言(Hyper Text Markup Language)，</strong>简称：HTML是一种用于创建网页的标准标记语言。        HTML语言是一种简易的文件交换标准，用于物理的文件结构，它旨在定义文件内的对象和描述文件的逻辑结构，而并不定义文件的显示，由于HTML5所描述的文件具有极高的适应性，因此它特别适合用于网页的出版环境。 同时它也是一个纯文本类型的语言，所编写出来的网页文件也是标准的纯文本文件。</p>
+<h4 id="2、HTML发展历程"><a href="#2、HTML发展历程" class="headerlink" title="2、HTML发展历程"></a>2、HTML发展历程</h4><p>​        HTML的历史可以追溯到很久以前。1993年HTML首次以因特网草案的形式发布。20世纪90年代的人见证了HTML的大幅发展，从2.0版，到3.2版和4.0版，再到1999年的4.01版，一直到现在正逐步普及的HTML5。随着HTML的发展，<strong>W3C（万维网联盟）</strong>掌握了对HTML规范的控制权。</p>
+<pre><code>在快速发布了HTML的前4个版本之后，业界普遍认为HTML已经“无路可走”了，对Web标准的焦点也开始转移到了XML和XHTML，HTML被放在次要位置。不过在此期间，HTML体现了顽强的生命力，主要的网站内容还是基于HTML的。为能支持新的Web应用，同时克服现有的缺点，HTML迫切需要添加新功能，制定新规范 。致力于将Web平台提升到一个新的高度，一小组人在2004年成立了WHATWG(Web Hypertext Application Technology Working Group，Web 超文本应用技术工作组)。他们创立了HTML5规范，同时开始专门针对Web应用开发新功能——这被WHATWG认为是HTML中最薄弱的环节。Web2.0这个新词也就是在那个时候被发明的。Web2.0实至名归，开创了Web的第二个时代、旧的静态网站逐渐让位于需要更多特性的动态网站和社交网站——这其中的新功能真的是数不胜数。</code></pre><p>​        2006年，W3C又重新介入HTML，并于2008年发布了HTML5的工作草案。2009年，XHTML2工作组停止工作。又过一年，也就到了现在。因为HTML5能解决非常实际的问题，所以在规范还没有具体订下来的情况下，各大浏览器厂家就已经按耐不住了，开始对旗下产品进行升级以支持HTML5的新功能。这样，得益于浏览器的实验性反馈，HTML5规范也得到了持续地完善，HTML5以这种方式迅速融入到了对Web平台的实质性改进中。</p>
+<p>​        </p>
+<h2 id="二、HTML文件的基本结构"><a href="#二、HTML文件的基本结构" class="headerlink" title="二、HTML文件的基本结构"></a>二、HTML文件的基本结构</h2><p>​        HTML文件是由一系列的元素和标记组成的。元素是HTML的重要主成部分。</p>
+<h4 id="1、HTML的基本结构"><a href="#1、HTML的基本结构" class="headerlink" title="1、HTML的基本结构"></a>1、HTML的基本结构</h4><h4 id="（1）、标记"><a href="#（1）、标记" class="headerlink" title="（1）、标记"></a>（1）、标记</h4><p>​                HTML的标记分为单独出现的标记<strong>（单独标记）</strong>和成对出现的标记<strong>（成对标记）</strong>两种。</p>
+<p>​                <strong>单独标记</strong></p>
+<p>​                单独标记的格式为&lt;元素名称&gt;或&lt;元素名称/&gt;，其作用是在相应的位置插入元素，例如<code>&lt;br&gt;</code>标记，也可以写成<code>&lt;br/&gt;</code>,不过这里推荐大家使用前一种。</p>
+<p>​                <strong>成对标记</strong></p>
+<p>​                大多数标记都是成对出现的，由首标记和尾标记组成，首标记的格式为&lt;元素名称&gt;，尾标记的格式为&lt;/元素名称&gt;，其语法格式如下：</p>
+<p>​                <code>&lt;元素名称&gt;要控制的元素&lt;/元素名称&gt;</code></p>
+<p>​                <strong>说明：在HTML中不区分大小写。</strong>每个HTML标记都可以设置一些属性，用来控制标记所建立的元素，这些属性位于首标记中，其语法格式如下：</p>
+<p>​                <code>&lt;元素名称 属性1=&quot;值1&quot; 属性2=&quot;值2&quot;&gt;</code></p>
+<p>​                而在尾部则是这样的：<code>&lt;/元素名称&gt;</code></p>
+<p>​                因此，在HTML文件中某个元素的完整定义语法如下：</p>
+<p>​                <code>&lt;元素名称 属性1=&quot;值1&quot; 属性2=&quot;值2&quot;......&gt;元素资料&lt;/元素名称&gt;</code></p>
+<p>​                <strong>注意：在HTML语法中，设置属性使用的 “ ” 可以省略。</strong></p>
+<h4 id="（2）、元素"><a href="#（2）、元素" class="headerlink" title="（2）、元素"></a>（2）、元素</h4><p>​                <strong>当用一组HTML标记将一段文字包含在中间时，这段文字与包含这段文字的标记被称之为一个元素。</strong></p>
+<p>​                在所有的HTML文档中，最外层的元素由<code>&lt;html&gt;</code>标记建立的，而在其中又包含了两个主要子元素，这两个子元素是由<code>&lt;head&gt;</code>标记与<code>&lt;body&gt;</code>标记所建立的，<code>&lt;head&gt;</code>标记所建立的元素内容为文件标题，而<code>&lt;body&gt;</code>标记所建立的元素内容为文件主题。</p>
+<p>​                <strong>HTML文件结构</strong>：</p>
+<p>​                <code>&lt;html&gt;</code></p>
+<p>​                <code>&lt;head&gt;</code></p>
+<p>​                <code>&lt;title&gt;</code>文件标题<code>&lt;/title&gt;</code></p>
+<p>​                <code>&lt;/head&gt;</code></p>
+<p>​                <code>&lt;body&gt;</code></p>
+<p>​                文件正文</p>
+<p>​                <code>&lt;/body&gt;</code></p>
+<p>​                <code>&lt;/html&gt;</code></p>
+<h4 id="2、HTML基本标记"><a href="#2、HTML基本标记" class="headerlink" title="2、HTML基本标记"></a>2、HTML基本标记</h4><p>​                <strong>1、文件开始标记<code>&lt;html&gt;</code></strong></p>
+<p>​                    在任何一个HTML文件里，最先出现的标记就是<code>&lt;html&gt;</code>，它用来表示该文件是用超文本标识语言编写的，<code>&lt;html&gt;</code>是成对出现的，首标记和尾标记分别位于文件的最前面和最后面。<strong>该标记不带任何属性。</strong></p>
+<p>​                <strong>2、文件头部标记<code>&lt;head&gt;</code></strong></p>
+<p>​                    <code>&lt;head&gt;</code>是一个表示网页头部的标记，在标记放置一些HTML的文件信息，它不属于HTML文件的主体，它包含文件的标题、编码方式以及URL等信息。这些信息大部分是用于提供索引、辨认等的应用。</p>
+<p>​                <strong>3、文件标题标记<code>&lt;title&gt;</code></strong></p>
+<p>​                    每个HTML文件都需要一个文件名称，在浏览器中，文件名称作为窗口名称显示在该窗口的最上方。并且<code>&lt;title&gt;</code>标记永远包含在<code>&lt;head&gt;</code>标记中。</p>
+<p>​                <strong>4、元信息标记<code>&lt;meta&gt;</code></strong></p>
+<p>​                    meta元素提供的信息是用户不可见的，它不显示在页面中，一般用来定义页面信息的名称、关键字、</p>
+<p>作者等。在HTML中，<strong><code>&lt;meta&gt;</code>标记不需要设置结束标记。</strong></p>
+<p>​                <strong>5、页面的主体标记<code>&lt;body&gt;</code></strong></p>
+<p>​                    以<code>&lt;body&gt;</code>标志它的开始，以<code>&lt;/body&gt;</code>标志结束。在网页主体标记中常用的属性如下表：</p>
+<p>​                    </p>
 <table>
 <thead>
 <tr>
-<th align="center">属性</th>
-<th align="center">说明</th>
+<th>属性</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">language</td>
-<td align="center">设置使用的语言及其版本</td>
+<td>text</td>
+<td>设置页面文字颜色</td>
 </tr>
 <tr>
-<td align="center">source</td>
-<td align="center">设置外部脚本文件的位置</td>
+<td>bgcolor</td>
+<td>设置页面背景颜色</td>
 </tr>
 <tr>
-<td align="center">type</td>
-<td align="center">设置使用的脚本语言</td>
+<td>background</td>
+<td>设置页面背景图像</td>
 </tr>
 <tr>
-<td align="center">defer</td>
-<td align="center">当页面加载完毕后执行的脚本语言</td>
+<td>bgproperties</td>
+<td>设置页面的背景图像为固定状态，不随页面的滚动而滚动</td>
+</tr>
+<tr>
+<td>link</td>
+<td>设置页面默认的链接颜色</td>
+</tr>
+<tr>
+<td>alink</td>
+<td>设置鼠标正在单击时链接的颜色</td>
+</tr>
+<tr>
+<td>vlink</td>
+<td>设定访问过后链接的颜色</td>
+</tr>
+<tr>
+<td>topmargin</td>
+<td>设置页面的上边距</td>
+</tr>
+<tr>
+<td>leftmargin</td>
+<td>设置页面的左边距</td>
 </tr>
 </tbody></table>
-<p>&ensp;&ensp;<strong>注意：</strong>type属性在HTML4.0版本就已经取代了language属性</p>
-<p>&ensp;&ensp;1、language属性</p>
-<p><code>&lt;script  language=&quot;JavaScript1.5&quot;&gt;</code></p>
-<p>&ensp;&ensp;<strong>注意：</strong>如果不定义language属性，浏览器默认脚本语言为JavaScript1.0</p>
-<p>&ensp;&ensp;2、src属性</p>
-<p><code>&lt;script  src=&quot;01.js&quot;&gt;</code></p>
-<p>&ensp;&ensp;src属性用来指定外部脚本文件事物路径，其扩展名为.js。</p>
-<p>&ensp;&ensp;3、type属性</p>
-<p>&ensp;&ensp;type属性用来指定HTML文档使用脚本语言及其版本，自HTML4.0版本开始推荐使用type属性来代替language属性，type属性的使用格式如下：</p>
-<p><code>&lt;script type=&quot;text/JavaScript&quot;&gt;</code></p>
-<p>&ensp;&ensp;4、defer属性</p>
-<p>&ensp;&ensp;defer属性的作用是当文档加载完毕以后再执行脚本语言。当脚本语言不需要立即运行时，可以设置defer属性，浏览器不必等待脚本语言加载，这样页面会加载的更快。defer属性到的适应格式如下：</p>
-<p><code>&lt;script defer&gt;</code></p>
-<p>&ensp;&ensp;<strong>2、连接外部JavaScript文件</strong></p>
-<p>&ensp;&ensp;如果代码比较复杂或是同一段代码可以被多个页面所使用，则可以将这些代码放置在一个单独的文件中，(保存文件的扩展名为.js)，然后在需要使用该代码的web页面中连接该JavaScript文件即可。在web页面中链接外部JavaScript文件语法格式如下：</p>
-<p><code>&lt;script type=&quot;text/JavaScript&quot; src=&quot;JavaScript.js&quot;&gt;&lt;/script&gt;</code></p>
-<p>&ensp;&ensp;<strong>3、作为标记的属性值使用</strong></p>
-<p>&ensp;&ensp;在JavaScript脚本程序中，有的JavaScript代码可能需要立即执行，而有的JavaScript代码可能需要单击某个链接或触发一些事件(如单击按钮)之后才会执行。</p>
-<p>&ensp;&ensp;<strong>（1）、通过“JavaScript:” 调用</strong></p>
-<p>&ensp;&ensp;在HTML中，可以通过”JavaScript:”的方式来调用JavaScript的函数和方法,示例代码如下：</p>
-<p><code>&lt;a href=&quot;JavaScript:alert(&#39;您单击了这个超链接&#39;)&quot;&gt;</code>请点击这里</a>`</p>
-<p>&ensp;&ensp;上述代码中通过使用“JavaScript:”的方式调用alert()方法，但是该方法并不是在浏览器解析到“JavaScript:”时就立即执行，而是在单击链接时执行。</p>
-<p>&ensp;&ensp;<strong>（2）、与事件结合使用</strong></p>
-<p>&ensp;&ensp;JavaScript支持很多事件，而事件可以影响用户操作。比如鼠标左键、按下键盘或者移动鼠标等。与事件结合，可以调用执行JavaScript的函数和方法。实例代码如下：</p>
-<p><code>&lt;input type=&quot;button&quot; value=&quot;单击按钮&quot; onclick=&quot;alert(&#39;您单击了这个按钮&#39;)&quot;/&gt;</code></p>
-<h3 id="ensp-ensp-三、JavaScript基本语法"><a href="#ensp-ensp-三、JavaScript基本语法" class="headerlink" title="&ensp;&ensp;三、JavaScript基本语法"></a>&ensp;&ensp;三、JavaScript基本语法</h3><p>&ensp;&ensp;1、<strong>执行顺序</strong></p>
-<p>&ensp;&ensp;<strong>JavaScript程序按照在HTML文件中出现的顺序逐行执行。</strong>如果需要在整个HTML文件中执行(如函数、全局变量等)，最好将JavaScript代码放在head标签中。</p>
-<p>&ensp;&ensp;<strong>2、大小写敏感</strong></p>
-<p>&ensp;&ensp;JavaScript语言作为一门编程语言，它也就对大小写特别敏感。因此在输入语言的关键字、函数名、变量以及其他标识符时，都必须采用正确的大小写格式。</p>
-<p>&ensp;&ensp;<strong>3、空格与换行</strong></p>
-<p>&ensp;&ensp;在JavaScript中会忽视程序中的空格、换行符合制表符。除非这些符号是字符串或者正则表达式中的一部分。另外JavaScript中的换行有“断句”的意思，即换行能判断一个语句是否已经结束。</p>
-<p>&ensp;&ensp;<strong>4、每行结尾的分号可有可无</strong></p>
-<p>&ensp;&ensp;在JavaScript中，每个语句的结尾的分号 “  ；”可有可无，但是为了养成良好习惯，最好在每行语句的后面加上分号，以此增强代码的准确性。</p>
-<p>&ensp;&ensp;<strong>5、注释</strong></p>
-<p>&ensp;&ensp;为程序添加注释有以下两种作用：</p>
-<p>&ensp;&ensp;（1）、可以解释某些程序的某些语句的作用和功能，是程序更容易理解，<strong>通常用于代码的解释说明；</strong></p>
-<p>&ensp;&ensp;（2）、可以用注释来暂时屏蔽某些语句，使浏览器对其暂时忽略，等需要时再取消注释，<strong>通常用于代码的调试。</strong></p>
-<p>&ensp;&ensp;在JavaScript中，提供了两种注释符号：</p>
-<p><code>//   用于单行注释</code></p>
-<p><code>/*......*/   用于多行注释，它分为开始和结束两个部分</code></p>
+<p>​                <strong>6、页面的注释</strong></p>
+<p>​                    在HTML文件中注释分为三类，在<code>&lt;html&gt;&lt;/html&gt;</code>中注释、在CSS层叠样式表中注释，在JavaScript中注释。</p>
+<p>​                    <strong>在<code>&lt;html&gt;&lt;/html&gt;</code>中注释</strong>，具体语法如下：</p>
+<p>​                    <code>&lt;!--注释的文字--&gt;</code></p>
+<p>​                </p>
+<p>​                    <strong>在CSS层叠样式表中注释</strong>，语法如下：</p>
+<p>​                    <code>/*注释文字*/</code>    </p>
+<p>​    </p>
+<p>​                    <strong>在 JavaScript中注释</strong>，语法如下：</p>
+<p>​                    单行注释：<code>//注释的文字</code></p>
+<p>​                    多行注释：<code>/*注释的文字*/</code></p>
 
             </div>
             <hr/>
@@ -518,8 +531,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="../../../../../tags/JavaScript/">
-                                    <span class="chip bg-color">JavaScript</span>
+                                <a href="../../../../../tags/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">
+                                    <span class="chip bg-color">Web前端开发</span>
                                 </a>
                             
                         </div>
@@ -560,9 +573,56 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="HTML基础">
+                        
+                        <span class="card-title">HTML基础</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            一、HTML概述1、什么是HTML​        超文本标记语言(Hyper Text Markup Language)，简称：HTML是一种用于创建网页的标准标记语言。        HTML语言是一种简易的文件交换标准，用于物理的文件
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-10-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            东锅锅
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="../../../../../tags/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">
+                        <span class="chip bg-color">Web前端开发</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="../../../26/JavaScript/JavaScript%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/">
                     <div class="card-image">
@@ -581,9 +641,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-10-26
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-10-26
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -597,51 +657,6 @@
                     
                     <a href="../../../../../tags/JavaScript/">
                         <span class="chip bg-color">JavaScript</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="../../../24/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="我们为什么要学习前端？">
-                        
-                        <span class="card-title">我们为什么要学习前端？</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            前端开发是什么？ 我们为什么要学习前端 ?&ensp;      前端开发全名为Web前端开发，前端开发是创建Web页面或app等前端界面呈现给用户的过程，通过HTML，CSS及JavaScript以及衍生出来的各种技术、框架、解决方案，来
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-10-24
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            东锅锅
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="../../../../../tags/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">
-                        <span class="chip bg-color">Web前端开发</span>
                     </a>
                     
                 </div>
