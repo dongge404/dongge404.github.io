@@ -30,6 +30,36 @@
 
 
 <body>
+        <script type="text/javascript">
+            /* 鼠标特效 */
+            var a_idx = 0;
+            jQuery(document).ready(function($) {
+                $("body").click(function(e) {
+                    var a = new Array("❤富强❤","❤民主❤","❤文明❤","❤和谐❤","❤自由❤","❤平等❤","❤公正❤","❤法治❤","❤爱国❤","❤敬业❤","❤诚信❤","❤友善❤");
+                    var $i = $("<span></span>").text(a[a_idx]);
+                    a_idx = (a_idx + 1) % a.length;
+                    var x = e.pageX,
+                    y = e.pageY;
+                    $i.css({
+                        "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+                        "top": y - 20,
+                        "left": x,
+                        "position": "absolute",
+                        "font-weight": "bold",
+                        "color": "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"
+                    });
+                    $("body").append($i);
+                    $i.animate({
+                        "top": y - 180,
+                        "opacity": 0
+                    },
+                    1500,
+                    function() {
+                        $i.remove();
+                    });
+                });
+            });
+            </script>        
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper head-container">
@@ -500,7 +530,7 @@
         },
         xAxis: {
             type: 'category',
-            data: ["2018-10","2018-11","2018-12","2019-01","2019-02","2019-03","2019-04","2019-05","2019-06","2019-07","2019-08","2019-09","2019-10"]
+            data: ["2018-11","2018-12","2019-01","2019-02","2019-03","2019-04","2019-05","2019-06","2019-07","2019-08","2019-09","2019-10","2019-11"]
         },
         yAxis: {
             type: 'value',
@@ -510,7 +540,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,4],
+                data: [0,0,0,0,0,0,0,0,0,0,0,4,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -576,7 +606,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["JavaScript","Web前端开发"]
+                data: ["Web前端开发","JavaScript"]
             }
         ],
         yAxis: [
@@ -757,11 +787,11 @@
         <div class="tag-chips center-align">
             
             
-            
-            
             <a href="../tags/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">
                 <span class="chip center-align waves-effect waves-light chip-default">Web前端开发</span>
             </a>
+            
+            
             
             
         </div>
@@ -1005,11 +1035,6 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
-    {％include'_third-party / comments / index.swig'％}  
-    <!-- 爆炸红心效果 -->
-<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
-<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
-<script type="text/javascript" src="/js/firework.js"></script>
-<script src="Snow.js"></script>
 </body>
+
 </html>
