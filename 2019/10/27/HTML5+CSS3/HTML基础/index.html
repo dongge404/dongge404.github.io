@@ -26,8 +26,7 @@
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
     
-</head>
-
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <body>
         <div class="snow-container">
@@ -67,7 +66,10 @@
                     });
                 });
             });
-            </script>               
+            </script>
+            
+
+
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper head-container">
@@ -432,14 +434,21 @@
 <h4 id="（2）、元素"><a href="#（2）、元素" class="headerlink" title="（2）、元素"></a>（2）、元素</h4><p>​                <strong>当用一组HTML标记将一段文字包含在中间时，这段文字与包含这段文字的标记被称之为一个元素。</strong></p>
 <p>​                在所有的HTML文档中，最外层的元素由<code>&lt;html&gt;</code>标记建立的，而在其中又包含了两个主要子元素，这两个子元素是由<code>&lt;head&gt;</code>标记与<code>&lt;body&gt;</code>标记所建立的，<code>&lt;head&gt;</code>标记所建立的元素内容为文件标题，而<code>&lt;body&gt;</code>标记所建立的元素内容为文件主题。</p>
 <p>​                <strong>HTML文件结构</strong>：</p>
-<p>​                <code>&lt;html&gt;</code></p>
-<p>​                <code>&lt;head&gt;</code></p>
-<p>​                <code>&lt;title&gt;</code>文件标题<code>&lt;/title&gt;</code></p>
-<p>​                <code>&lt;/head&gt;</code></p>
-<p>​                <code>&lt;body&gt;</code></p>
-<p>​                文件正文</p>
-<p>​                <code>&lt;/body&gt;</code></p>
-<p>​                <code>&lt;/html&gt;</code></p>
+<pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>页面标题<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+
+页面主体部分
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span></code></pre>
 <h4 id="2、HTML基本标记"><a href="#2、HTML基本标记" class="headerlink" title="2、HTML基本标记"></a>2、HTML基本标记</h4><p>​                <strong>1、文件开始标记<code>&lt;html&gt;</code></strong></p>
 <p>​                    在任何一个HTML文件里，最先出现的标记就是<code>&lt;html&gt;</code>，它用来表示该文件是用超文本标识语言编写的，<code>&lt;html&gt;</code>是成对出现的，首标记和尾标记分别位于文件的最前面和最后面。<strong>该标记不带任何属性。</strong></p>
 <p>​                <strong>2、文件头部标记<code>&lt;head&gt;</code></strong></p>
@@ -506,7 +515,7 @@
 <p>​    </p>
 <p>​                    <strong>在 JavaScript中注释</strong>，语法如下：</p>
 <p>​                    单行注释：<code>//注释的文字</code></p>
-<p>​                    多行注释：/<em>注释的文字</em>/``</p>
+<p>​                    多行注释：/* 注释的文字 */</p>
 
             </div>
             <hr/>
