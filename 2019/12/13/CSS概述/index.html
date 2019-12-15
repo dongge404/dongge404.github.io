@@ -395,14 +395,14 @@
                     
                     <div class="info-break-policy">
                         <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        842
+                        3.4k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        2 分
+                        12 分
                     </div>
                     
                 
@@ -413,7 +413,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="一、CSS3概述"><a href="#一、CSS3概述" class="headerlink" title="一、CSS3概述"></a>一、CSS3概述</h2><h4 id="1、CSS发展历史"><a href="#1、CSS发展历史" class="headerlink" title="1、CSS发展历史"></a>1、CSS发展历史</h4><p>&#8195;&#8195;从1990年代初HTML被发明开始样式表就以各种形式出现了，不同的浏览器结合了它们各自的样式语言，读者可以使用这些样式语言来调节网页的显示方式。一开始样式表是给读者用的，最初的HTML版本只含有很少的显示属性，读者来决定网页应该怎样被显示。</p>
+                <h2 id="一、CSS3概述"><a href="#一、CSS3概述" class="headerlink" title="一、CSS3概述"></a>一、CSS3概述</h2><h3 id="1、CSS发展历史"><a href="#1、CSS发展历史" class="headerlink" title="1、CSS发展历史"></a>1、CSS发展历史</h3><p>&#8195;&#8195;从1990年代初HTML被发明开始样式表就以各种形式出现了，不同的浏览器结合了它们各自的样式语言，读者可以使用这些样式语言来调节网页的显示方式。一开始样式表是给读者用的，最初的HTML版本只含有很少的显示属性，读者来决定网页应该怎样被显示。</p>
 <p>&#8195;&#8195;但随着HTML的成长，为了满足设计师的要求，HTML获得了很多显示功能。随着这些功能的增加外来定义样式的语言越来越没有意义了。</p>
 <p>​        &#8195;&#8195;1994年哈坤·利提出了CSS的最初建议。伯特·波斯（Bert Bos）当时正在设计一个叫做Argo的浏览器，他们决定一起合作设计CSS。</p>
 <p>​        &#8195;&#8195;当时已经有过一些样式表语言的建议了，但CSS是第一个含有“层叠”的主意的。在CSS中，一个文件的样式可以从其他的样式表中继承下来。读者在有些地方可以使用他自己更喜欢的样式，在其他地方则继承，或“层叠”作者的样式, 这种层叠的方式使作者和读者都可以灵活地加入自己的设计，混合各人的爱好。</p>
@@ -422,7 +422,7 @@
 <p>​    &#8195;&#8195;    2001年5月，W3C完成了CSS3的工作草案，主要包括盒子模型、列表模块、超链接试、语言模块、文字特效、多栏布局等模块。</p>
 <p>​    &#8195;&#8195;    CSS是一种网页控制技术，可以有效地对页面布局、字体、颜色、背景和其他效果实现更加精准的控制。</p>
 <p>​        &#8195;&#8195;与CSS以前的版本比较，CSS3的变化是革命性的，而不是仅限于局部功能的修订和完善。尽管CSS3的一些特性还不能被很多浏览器支持，或者说支持得还不够好，但是它依然让我们看到了网页样式的发展方向和使命。                </p>
-<h4 id="2、一个简单的CSS示例"><a href="#2、一个简单的CSS示例" class="headerlink" title="2、一个简单的CSS示例"></a>2、一个简单的CSS示例</h4><p>​                &#8195;&#8195;在CSS3中通过几行代码就可以实现很多以前需要用脚本才能完成的效果，这不仅简化了设计师的工作，而且还加快了页面的加载速度。在CSS中，选择器的语法格式如下：</p>
+<h3 id="2、一个简单的CSS示例"><a href="#2、一个简单的CSS示例" class="headerlink" title="2、一个简单的CSS示例"></a>2、一个简单的CSS示例</h3><p>​                &#8195;&#8195;在CSS3中通过几行代码就可以实现很多以前需要用脚本才能完成的效果，这不仅简化了设计师的工作，而且还加快了页面的加载速度。在CSS中，选择器的语法格式如下：</p>
 <pre class=" language-html"><code class="language-html">selector {property:value}</code></pre>
 <p>◆<strong>selector：</strong>选择器，通过选中想要改变的样式</p>
 <p>◆<strong>property：</strong>属性</p>
@@ -432,7 +432,205 @@
 <p><img src="/2019/12/13/CSS%E6%A6%82%E8%BF%B0/b.png" alt="b"></p>
 <p><strong>通过添加CSS代码来则增加页面的某些效果：</strong></p>
 <p><img src="/2019/12/13/CSS%E6%A6%82%E8%BF%B0/c.png" alt="c"></p>
+<h3 id="3、CSS3中的选择器"><a href="#3、CSS3中的选择器" class="headerlink" title="3、CSS3中的选择器"></a>3、CSS3中的选择器</h3><p>&#8195;&#8195;在前面已经知道的CSS可以修改HTML中标记的样式，那它是通过什么方式去修改呢？简单的说，就是告诉CSS三个问题：<strong>改变谁？改什么？怎么改？</strong>这个时候就需要使用到<strong>选择器。</strong>选择器就是用来选择标签的方式，比如ID选择器就是通过id来选择标签，类选择器是通过类名来选择标签；<strong>改什么</strong>就是告诉CSS改变这个标签的哪一些属性，<strong>怎么改</strong>则是则是指定这个属性的值。</p>
+<p>&#8195;&#8195;<strong><em>举个栗子：</em></strong>如果要将HTML中的所有<code>&lt;p&gt;</code>标签当中的字体颜色设置为红色，就需要通过标签选择器来告诉CSS要改变的是<code>&lt;p&gt;</code>标签，其颜色为红色，清楚了这三个问题，CSS就可以很好地为我们服务啦！</p>
+<h4 id="8195-8195-3-1、属性选择器"><a href="#8195-8195-3-1、属性选择器" class="headerlink" title="&#8195;&#8195;3.1、属性选择器"></a>&#8195;&#8195;3.1、属性选择器</h4><p>&#8195;&#8195;顾名思义，属性选择器就是通过属性来选择标签，这些属性既可以是HTML中的默认属性，也可以是自定义属性。话不多说，我们一起来看下面的代码：</p>
+<pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">font</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>fontsize<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>编程图书<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">color</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>red<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>PHP编程<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">color</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>green<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>盗墓笔记<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></code></pre>
+<p>&#8195;&#8195;通过上面的代码可以看出。在每一个p标签当中，都赋予了一个属性与其对应的属性值，那这个时候就可以通过这些属性和属性值去具体选择一个p标签来添加后修改样式了：</p>
+<pre class=" language-css"><code class="language-css"><span class="token selector"><span class="token attribute">[font=fontsize]</span></span><span class="token punctuation">{</span>
+       <span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector"><span class="token attribute">[color=red]</span></span><span class="token punctuation">{</span>
+       <span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector"><span class="token attribute">[color=green]</span></span><span class="token punctuation">{</span>
+      <span class="token property">color</span><span class="token punctuation">:</span>green<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<p>&#8195;&#8195;&#8195;<strong><em>【注意】</em></strong>给元素定义属性和属性值时，可以任意定义，但是应该尽量做到“见名思意”即看到该属性和属性值时就知道它的大体用意。</p>
+<h4 id="8195-8195-3-2、类选择器和ID选择器"><a href="#8195-8195-3-2、类选择器和ID选择器" class="headerlink" title="&#8195;&#8195;3.2、类选择器和ID选择器"></a>&#8195;&#8195;3.2、类选择器和ID选择器</h4><p>&#8195;&#8195;在CSS当中应用得最多的也是最广泛的就是类选择器和ID选择器，这两种选择器在用法上大体类似，不过也有一些差别：</p>
+<p>&#8195;&#8195;&#8195;&#8195;<strong>类选择器：</strong>在使用该选择器时，前面会有<strong>“.”</strong>的符号，语法格式：</p>
+<h5 id="8195-8195-p-color-red"><a href="#8195-8195-p-color-red" class="headerlink" title="&#8195;&#8195;.p{color:red}"></a>&#8195;&#8195;<code>.p{color:red}</code></h5><p>&#8195;&#8195;<strong>&#8195;&#8195;ID选择器：</strong>在使用该选择器时，前面会有<strong>“#”</strong>的符号，语法格式：</p>
+<h5 id="8195-8195-p-color-red-1"><a href="#8195-8195-p-color-red-1" class="headerlink" title="&#8195;&#8195;#p{color:red}"></a>&#8195;&#8195;<code>#p{color:red}</code></h5><p><strong><em>&#8195;注意</em>：</strong>在一个页面中可以使用多个类选择器，但是只能使用一个ID选择器！</p>
+<h4 id="8195-8195-3-3、伪类和伪元素选择器"><a href="#8195-8195-3-3、伪类和伪元素选择器" class="headerlink" title="&#8195;&#8195;3.3、伪类和伪元素选择器"></a>&#8195;&#8195;3.3、伪类和伪元素选择器</h4><p>&#8195;&#8195;在浏览网页时，会经常遇到一种情况，就是把鼠标放在某个元素上时，这个元素会出现一些变化，例如：当鼠标滑过导航栏时，导航栏会显示一些内容，这些特效都离不开<strong>伪类选择器</strong>，而<strong>伪元素选择器</strong>则是用来实现普通标签无法轻易修改的部分，比如一段文字中的第一个字。</p>
+<h4 id="8195-8195-1、伪类选择器"><a href="#8195-8195-1、伪类选择器" class="headerlink" title="&#8195;&#8195;1、伪类选择器"></a>&#8195;&#8195;1、伪类选择器</h4><p>&#8195;&#8195;伪类选择器是CSS中已经定义好的选择器，因此不能随意更改名字，<strong>它是用来对某种特殊状态的目标元素应用的样式。</strong>有以下四种：</p>
+<p><strong>◆:link  ：表示未访问时的超链接样式；</strong></p>
+<p><strong>◆:visited： 表示已访问过的超链接样式；</strong></p>
+<p><strong>◆:hover： 鼠标停留元素时的样式;</strong></p>
+<p><strong>◆:active：正在单击元素时定的样式;</strong></p>
+<p>看如下代码：</p>
+<pre class=" language-css"><code class="language-css"><span class="token selector">a<span class="token pseudo-class">:link</span></span><span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">/*表示未访问超链接时的字体颜色为红色*/</span>
+<span class="token punctuation">}</span>
+<span class="token selector">a<span class="token pseudo-class">:visited</span></span><span class="token punctuation">{</span>
+   <span class="token property">color</span><span class="token punctuation">:</span>green<span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">/*表示已经访问过的超链接颜色为绿色*/</span>
+<span class="token punctuation">}</span>
+<span class="token selector"><span class="token class">.content</span><span class="token pseudo-class">:hover</span></span><span class="token punctuation">{</span>
+    <span class="token property">border</span><span class="token punctuation">:</span><span class="token number">1</span>px,solid red<span class="token punctuation">;</span>   <span class="token comment" spellcheck="true">/*当鼠标定留在指定元素时显示一个边框*/</span>
+<span class="token punctuation">}</span>
+<span class="token selector"><span class="token class">.bg</span><span class="token pseudo-class">:active</span></span><span class="token punctuation">{</span>
+   <span class="token property">background</span><span class="token punctuation">:</span>blue<span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">/*表示点击指定元素时背景颜色为蓝色*/</span>
+<span class="token punctuation">}</span></code></pre>
+<p>&#8195;&#8195;以上代码就是对伪类选择器的应用。当然还有很多，这里就不一一举例啦！</p>
+<p>&#8195;&#8195;<strong>【注意】：</strong></p>
+<p><strong>（1）、:link  和 :visited只对链接标记起作用，对其他标签不起作用。</strong></p>
+<p><strong>（2）、在使用伪类选择器时，样式的顺序是非常重要的。他们之间的正确顺序为：:link      :visited     :hover(该选择器必须在:link和:visited之后)   :hover  :active(该选择器必须定义在:hover之后)。归纳为一句话就是“爱恨原则”即“L(:link)oV(:visited)e,H(:hover)A(:active)te”。</strong></p>
+<h4 id="8195-8195-2、伪元素选择器"><a href="#8195-8195-2、伪元素选择器" class="headerlink" title="&#8195;&#8195;2、伪元素选择器"></a>&#8195;&#8195;2、伪元素选择器</h4><p>&#8195;&#8195;伪元素选择器时用来改变文档中特定部分的效果样式，而这一部分是普通标签无法完成的部分。在CSS3中，有以下四种伪元素选择器：</p>
+<p><strong>◆:first-letter ： 对指定对象内的第一个字符起作用；</strong></p>
+<p><strong>◆:first-line ： 对指定对象内的第一行内容起作用；</strong></p>
+<p><strong>◆:before ： 用于在指定对象内的前端插入内容；</strong></p>
+<p><strong>◆:after ： 用于在指定对象内的尾端添加内容：</strong></p>
+<p>看如下代码：</p>
+<pre class=" language-css"><code class="language-css"><span class="token selector"><span class="token class">.txt</span><span class="token pseudo-element">:first-line</span></span><span class="token punctuation">{</span>    <span class="token comment" spellcheck="true">/*设置第一行文本的样式*/</span>
 
+      <span class="token property">font-size</span><span class="token punctuation">:</span><span class="token number">35</span>px<span class="token punctuation">;</span>     <span class="token comment" spellcheck="true">/*设置第一行文本的字体大小*/</span>
+      <span class="token property">height</span><span class="token punctuation">:</span><span class="token number">50</span>px<span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">/*设置第一行文本的高度*/</span>
+      <span class="token property">line-height</span><span class="token punctuation">:</span><span class="token number">50</span>px<span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">/*设置第一行行高*/</span>
+      <span class="token property">color</span><span class="token punctuation">:</span><span class="token hexcode">#000</span>           <span class="token comment" spellcheck="true">/*设置第一行的字体颜色*/</span>
+<span class="token punctuation">}</span>
+<span class="token selector">p<span class="token pseudo-element">:first-letter</span></span><span class="token punctuation">{</span>  设置`&lt;p>`标签中的到第一个字的样式
+
+     <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token number">35</span>px<span class="token punctuation">;</span>
+     <span class="token property">margin-left</span><span class="token punctuation">:</span><span class="token number">20</span>px<span class="token punctuation">;</span>
+
+<span class="token punctuation">}</span>
+<span class="token selector"><span class="token class">.tet</span><span class="token pseudo-element">:after</span></span><span class="token punctuation">{</span>  <span class="token comment" spellcheck="true">/*为类名为tet的元素后面添加内容*/</span>
+    <span class="token property">content</span><span class="token punctuation">:</span><span class="token url">url("../img/phone1")</span>
+    <span class="token property">top</span><span class="token punctuation">:</span><span class="token number">75</span>px<span class="token punctuation">;</span>
+    <span class="token property">left</span><span class="token punctuation">:</span><span class="token number">777</span>px<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>    </code></pre>
+<h3 id="4、常用属性"><a href="#4、常用属性" class="headerlink" title="4、常用属性"></a>4、常用属性</h3><h4 id="8195-8195-1、文本的相关属性"><a href="#8195-8195-1、文本的相关属性" class="headerlink" title="&#8195;&#8195;1、文本的相关属性"></a>&#8195;&#8195;1、文本的相关属性</h4><h5 id="8195-8195-（1）、设置字体属性：font-family-格式如下："><a href="#8195-8195-（1）、设置字体属性：font-family-格式如下：" class="headerlink" title="&#8195;&#8195;（1）、设置字体属性：font-family   格式如下："></a>&#8195;&#8195;（1）、设置字体属性：font-family   格式如下：</h5><h5 id="8195-8195-font-family-name1-name2-name3"><a href="#8195-8195-font-family-name1-name2-name3" class="headerlink" title="&#8195;&#8195;font-family:name1,[name2],[name3]"></a>&#8195;&#8195;<code>font-family:name1,[name2],[name3]</code></h5><p>&#8195;&#8195;name：字体的名称，而后面的name2和name3就相当于备用字体，当计算机中没有name1时则显示name2，当计算机中没有name2是则显示name3。如下代码：</p>
+<pre class=" language-css"><code class="language-css"><span class="token selector"><span class="token class">.mr-font1</span></span><span class="token punctuation">{</span>
+    <span class="token property">font-family</span><span class="token punctuation">:</span><span class="token string">"宋体"</span>,<span class="token string">"黑体"</span>,<span class="token string">"楷体"</span>
+<span class="token punctuation">}</span></code></pre>
+<h5 id="8195-8195-（2）、设置字号属性：font-size：-length"><a href="#8195-8195-（2）、设置字号属性：font-size：-length" class="headerlink" title="&#8195;&#8195;（2）、设置字号属性：font-size：(length)"></a>&#8195;&#8195;（2）、设置字号属性：font-size：(length)</h5><p>&#8195;&#8195;length指的是字体的尺寸，也可以说是大小。由数字和长度单位组成，这里的单位可以是<strong>相对单位</strong>，也可以是<strong>绝对单位</strong>。以下表列出了几个绝对单位及其表示的含义：</p>
+<table>
+<thead>
+<tr>
+<th>长度单位</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>in</td>
+<td>inch，英寸</td>
+</tr>
+<tr>
+<td>cm</td>
+<td>厘米</td>
+</tr>
+<tr>
+<td>mm</td>
+<td>毫米</td>
+</tr>
+<tr>
+<td>pt</td>
+<td>point，印刷的点数，在一般的显示器中，1pt相当于1/72inch</td>
+</tr>
+<tr>
+<td>pc</td>
+<td>pica，1pc=12pt</td>
+</tr>
+</tbody></table>
+<p>&#8195;&#8195;常见的相对单位有px、em、ex等，下面依次介绍它们的用法：</p>
+<p>&#8195;&#8195;◆相对单位px：</p>
+<p>&#8195;&#8195;<strong>px是一个长度单位，表示在浏览器上1个像素的大小</strong>，因为不同访问者的显示器的分辨率不同，而且每个像素的实际大小也不同，因此px也被称为相对单位。</p>
+<p>&#8195;&#8195;◆相对单位em和ex：</p>
+<p>&#8195;&#8195;1em表示的长度是其父标签中字母m的标准宽度，1ex则表示字母x的标准高度。当父标签的文字大小发生改变时，使用这两个单位的子标签的大小也会随之改变。</p>
+<h5 id="8195-8195-（3）、设置文字颜色属性：color：color"><a href="#8195-8195-（3）、设置文字颜色属性：color：color" class="headerlink" title="&#8195;&#8195;（3）、设置文字颜色属性：color：color"></a>&#8195;&#8195;（3）、设置文字颜色属性：color：color</h5><p>&#8195;&#8195;color表示颜色值，颜色值的表示方法有三种：英文单词、十六进制、RGB或者HSL。如下代码示例：</p>
+<pre class=" language-css"><code class="language-css"><span class="token selector">h3</span><span class="token punctuation">{</span><span class="token property">color</span><span class="token punctuation">:</span>bliue<span class="token punctuation">}</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">/*使用颜色单词来表示颜色*/</span>
+<span class="token selector">h3</span><span class="token punctuation">{</span><span class="token property">color</span><span class="token punctuation">:</span><span class="token hexcode">#0000ff</span><span class="token punctuation">}</span><span class="token punctuation">;</span>      <span class="token comment" spellcheck="true">/*使用十六进制表示颜色*/</span>
+<span class="token selector">h3</span><span class="token punctuation">{</span><span class="token property">color</span><span class="token punctuation">:</span><span class="token hexcode">#00f</span><span class="token punctuation">}</span><span class="token punctuation">;</span>         <span class="token comment" spellcheck="true">/*十六进制的缩写*/</span>
+<span class="token selector">h3</span><span class="token punctuation">{</span><span class="token property">color</span><span class="token punctuation">:</span><span class="token function">rgb</span><span class="token punctuation">(</span><span class="token number">0</span>,<span class="token number">0</span>,<span class="token number">255</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">/*使用rgb()表示颜色*/</span></code></pre>
+<h5 id="8195-8195-4-、设置文本的对齐方式：-text-align（该属性通常有四个值：left、right、center、justify）"><a href="#8195-8195-4-、设置文本的对齐方式：-text-align（该属性通常有四个值：left、right、center、justify）" class="headerlink" title="&#8195;&#8195;(4)、设置文本的对齐方式： text-align（该属性通常有四个值：left、right、center、justify）"></a>&#8195;&#8195;(4)、设置文本的对齐方式： text-align（该属性通常有四个值：left、right、center、justify）</h5><h5 id="8195-8195-5-、设置段落缩进属性：text-indent（可通过直接定义或者百分比来表示，可以为负数）"><a href="#8195-8195-5-、设置段落缩进属性：text-indent（可通过直接定义或者百分比来表示，可以为负数）" class="headerlink" title="&#8195;&#8195;(5)、设置段落缩进属性：text-indent（可通过直接定义或者百分比来表示，可以为负数）"></a>&#8195;&#8195;(5)、设置段落缩进属性：text-indent（可通过直接定义或者百分比来表示，可以为负数）</h5><h4 id="8195-8195-2、背景的相关属性"><a href="#8195-8195-2、背景的相关属性" class="headerlink" title="&#8195;&#8195;2、背景的相关属性"></a>&#8195;&#8195;2、背景的相关属性</h4><h5 id="8195-8195-1-、添加背景颜色的属性：-background-color-transparent"><a href="#8195-8195-1-、添加背景颜色的属性：-background-color-transparent" class="headerlink" title="&#8195;&#8195;(1)、添加背景颜色的属性： background-color|transparent"></a>&#8195;&#8195;(1)、添加背景颜色的属性： background-color|transparent</h5><p>&#8195;&#8195;transparent：表示背景颜色透明。</p>
+<h5 id="8195-8195-2-、添加背景图片：-background-image-url"><a href="#8195-8195-2-、添加背景图片：-background-image-url" class="headerlink" title="&#8195;&#8195;(2)、添加背景图片： background-image: url()"></a>&#8195;&#8195;(2)、添加背景图片： background-image: url()</h5><p>&#8195;&#8195;url表示图片的地址，可以是相对地址，也可以是绝对地址</p>
+<h5 id="8195-8195-3-、设置图像的平铺方式：-background-repeat：inherit-no-repeat-repeat-repeat-x-repeat-y"><a href="#8195-8195-3-、设置图像的平铺方式：-background-repeat：inherit-no-repeat-repeat-repeat-x-repeat-y" class="headerlink" title="&#8195;&#8195;(3)、设置图像的平铺方式： background-repeat：inherit|no-repeat|repeat|repeat-x|repeat-y"></a>&#8195;&#8195;(3)、设置图像的平铺方式： background-repeat：inherit|no-repeat|repeat|repeat-x|repeat-y</h5><p>&#8195;&#8195;属性值解释：</p>
+<table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>inherit</td>
+<td>从父标签继承的属性</td>
+</tr>
+<tr>
+<td>no-repeat</td>
+<td>背景图像只显示一次，不重复</td>
+</tr>
+<tr>
+<td>repeat</td>
+<td>在水平方向和垂直方向上重复显示图像</td>
+</tr>
+<tr>
+<td>repeat-x</td>
+<td>只在x轴方向重复显示图像</td>
+</tr>
+<tr>
+<td>repeat-y</td>
+<td>只在y轴方向重复显示图像</td>
+</tr>
+</tbody></table>
+<h5 id="8195-8195-（4）、设置图像是否随着页面滚动：background-attachment：scroll-fixed"><a href="#8195-8195-（4）、设置图像是否随着页面滚动：background-attachment：scroll-fixed" class="headerlink" title="&#8195;&#8195;（4）、设置图像是否随着页面滚动：background-attachment：scroll|fixed"></a>&#8195;&#8195;（4）、设置图像是否随着页面滚动：background-attachment：scroll|fixed</h5><p>&#8195;&#8195;scroll：当页面滚动时，图像跟着滚动。</p>
+<p>&#8195;&#8195;fixed：将背景图像固定在页面的可见区域。</p>
+<h5 id="8195-8195-（5）、设置背景图像在页面中的位置："><a href="#8195-8195-（5）、设置背景图像在页面中的位置：" class="headerlink" title="&#8195;&#8195;（5）、设置背景图像在页面中的位置："></a>&#8195;&#8195;（5）、设置背景图像在页面中的位置：</h5><h5 id="background-position：length-percentage-top-center-bottom-left-right"><a href="#background-position：length-percentage-top-center-bottom-left-right" class="headerlink" title="background-position：length|percentage|top|center|bottom|left|right"></a>background-position：length|percentage|top|center|bottom|left|right</h5><p>&#8195;&#8195;属性值解释：</p>
+<table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>length</td>
+<td>背景图像与页面水平和垂直方向的距离。</td>
+</tr>
+<tr>
+<td>percentage</td>
+<td>根据页面标签的宽度和高度的百分比放置背景图像</td>
+</tr>
+<tr>
+<td>top</td>
+<td>设置背景图像顶部居中显示</td>
+</tr>
+<tr>
+<td>center</td>
+<td>设置背景图像居中显示</td>
+</tr>
+<tr>
+<td>bottom</td>
+<td>设置背景图像底部居中显示</td>
+</tr>
+<tr>
+<td>left</td>
+<td>设置背景图像左部居中显示</td>
+</tr>
+<tr>
+<td>right</td>
+<td>设置背景图像右部居中显示</td>
+</tr>
+</tbody></table>
+<p>&#8195;&#8195;<strong>【注意】</strong>当需要为背景设置多个属性时，可以使用简写“background”，然后将其个属性值写在一起，并以<strong>空格间隔。</strong>如以下代码：</p>
+<pre class=" language-css"><code class="language-css"><span class="token selector"><span class="token class">.cont</span></span><span class="token punctuation">{</span>
+    <span class="token property">background-image</span><span class="token punctuation">:</span><span class="token url">url(../img/bg.png)</span><span class="token punctuation">;</span>
+    <span class="token property">background-position</span><span class="token punctuation">:</span>left top<span class="token punctuation">;</span>
+    <span class="token property">background-repeat</span><span class="token punctuation">:</span>no-repeat<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<p>&#8195;&#8195;以上代码还可以写为以下格式：</p>
+<pre class=" language-css"><code class="language-css"><span class="token selector"><span class="token class">.cont</span></span><span class="token punctuation">{</span>
+
+    <span class="token property">background</span><span class="token punctuation">:</span><span class="token url">url("../img/bg.png")</span> left top no-repeat
+<span class="token punctuation">}</span></code></pre>
+<p>&#8195;&#8195;<strong>从上面的两个例子我们不难看出，在我们使用了background的简写属性后，代码就变得简单明了了很多。因此学会使用属性的简写属性对以后的学习和开发是非常重要的！</strong></p>
+<h4 id="8195-8195-3、列表的相关属性"><a href="#8195-8195-3、列表的相关属性" class="headerlink" title="&#8195;&#8195;3、列表的相关属性"></a>&#8195;&#8195;3、列表的相关属性</h4><p>&#8195;&#8195;以下为列表的几个常用属性：</p>
+<p><strong>◆list-style：</strong>列表简写属性。</p>
+<p><strong>◆list-style-image：</strong>将图像设置为列表项标志。</p>
+<p><strong>◆list-style-position：</strong>设置列表项的标志在文本以内或以外。</p>
+<p><strong>◆list-style-type：</strong>设置列表项标志的类型</p>
+<h4 id="8195-8195-背景图片无法显示？"><a href="#8195-8195-背景图片无法显示？" class="headerlink" title="&#8195;&#8195;背景图片无法显示？"></a>&#8195;&#8195;背景图片无法显示？</h4><h4 id="8195-8195-1、图片的路径是否正确"><a href="#8195-8195-1、图片的路径是否正确" class="headerlink" title="&#8195;&#8195;1、图片的路径是否正确"></a>&#8195;&#8195;1、图片的路径是否正确</h4><h4 id="8195-8195-2、用于存放图片标签的宽高为定义"><a href="#8195-8195-2、用于存放图片标签的宽高为定义" class="headerlink" title="&#8195;&#8195;2、用于存放图片标签的宽高为定义"></a>&#8195;&#8195;2、用于存放图片标签的宽高为定义</h4>
             </div>
             <hr/>
 
@@ -670,7 +868,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">9.1k</span>&nbsp;字
+                class="white-color">11.7k</span>&nbsp;字
             
             
             
