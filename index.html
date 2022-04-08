@@ -143,17 +143,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/contact" class="waves-effect waves-light">
-      
-      <i class="fas fa-comments" style="zoom: 0.6;"></i>
-      
-      <span>留言板</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/friends" class="waves-effect waves-light">
       
       <i class="fas fa-address-book" style="zoom: 0.6;"></i>
@@ -239,17 +228,6 @@
 			    <i class="fa-fw fas fa-user-circle"></i>
 			
 			关于
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/contact" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-comments"></i>
-			
-			Contact
 		</a>
           
         </li>
@@ -430,7 +408,7 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/girl.jpg)') 
+    $('.bg-cover').css('background-image', 'url(/medias/banner/ww.jpg)') 
 </script>
 
 
@@ -539,38 +517,38 @@ $(function () {
                     
 
                     
-                        
 
-<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<div class="music-player">
+                    
+                        <link rel="stylesheet" href="/libs/dplayer/DPlayer.min.css">
+<div class="video-player">
     
     <div class="row">
         <div class="col l8 offset-l2 m10 offset-m1 s12">
-            <div id="aplayer" class="music"></div>
+            <div id="dplayer" class="dplayer-video"
+                    ></div>
         </div>
     </div>
 </div>
 
-<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="/libs/dplayer/DPlayer.min.js"></script>
 <script>
-$(function () {
-    new APlayer({
-        container: document.getElementById('aplayer'),
-        fixed: 'false' === 'true',
-        autoplay: 'false' === 'true',
-        theme: '#42b983',
-        loop: 'one',
-        order: 'list',
-        preload: 'none',
-        volume: Number('0.7'),
-        listFolded: 'false' === 'true',
-        listMaxHeight: '',
-        audio: JSON.parse('[{"name":"爱转角","artist":"罗志祥","url":"http://music.163.com/song?id=110452&userid=440656573"},{"name":"侧脸","artist":"于果","url":"http://mp32.9ku.com/upload/2018/02/07/875533.m4a","cover":"https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=f42a0ec29d52982205333ec5eff11cf6/d000baa1cd11728bf519be27c5fcc3cec3fd2cfa.jpg"},{"name":"光年之外","artist":"邓紫棋","url":"http://mp32.9ku.com/upload/2017/04/26/861243.m4a","cover":"https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D500/sign=60b1cfbacc5c1038207ecec28210931c/91ef76c6a7efce1b14f7076aa551f3deb58f65b6.jpg"},{"name":"缺氧","artist":"杨丞琳","url":"http://ar.h5.nf01.sycdn.kuwo.cn/resource/n3/81/5/2900995068.mp3","cover":"https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=28cd2a4fe8f81a4c2632ebcfef110764/a5c27d1ed21b0ef43f2b0065dec451da80cb3ecd.jpg"},{"name":"公子向北走","artist":"李春花","url":"http://96.ierge.cn/14/213/427373.mp3","cover":"http://img.5nd.com/photo/2019album/20192/90332.jpg"},{"name":"蓝莲花","artist":"许巍","url":"http://mp32.9ku.com/upload/2016/03/22/670485.m4a","cover":"https://pic.baike.soso.com/ugc/baikepic2/4928/cut-20180504184409-54799654_jpg_752_565_46424.jpg/300"},{"name":"一生有你","artist":"水木年华","url":"http://mp3.9ku.com/m4a/9762.m4a","cover":"http://img.9ku.com/pic/zjpic/5/42860.jpg"},{"name":"等你等了那么久","artist":"祁隆","url":"http://mp3.9ku.com/m4a/464446.m4a","cover":"https://ss3.baidu.com/-rVXeDTa2gU2pMbgoY3K/it/u=1499361339,1383642138&fm=202&mola=new&crop=v1"}]')
+    $(function () {
+        new DPlayer({
+            container: document.getElementById('dplayer'),
+            autoplay: 'false' === 'true',
+            theme: '#42b983',
+            loop: 'false' === 'true',
+            lang: 'zh-CN' === 'zh-CN' ? 'zh-cn' : 'en',
+            preload: 'auto',
+            volume: Number('0.7'),
+            video: {
+                url: '/medias/videos/demo.mp4',
+                pic: '',
+                thumbnails: ''
+            }
+        });
     });
-});
 </script>
-                    
-
                     
 
                     <div id="recommend-sections" class="recommend">
@@ -593,30 +571,34 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="2019/11/10/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/">
+                    <a href="2022/03/20/Vue/06_Vue%E8%84%9A%E6%89%8B%E6%9E%B6/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="我们为什么要学习前端？">
+                            <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Vue脚手架">
                             
-                            <span class="card-title">我们为什么要学习前端？</span>
+                            <span class="card-title">Vue脚手架</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                本篇给出我对前端的一些认知，以及为什么我们为什么学前端。
+                                Vue项目中的基础搭建平台。组件开发离不开的基础。
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-11-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-20
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fas fa-user fa-fw"></i>
-                                东锅锅
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="categories/Vue/" class="post-category">
+                                    Vue
+                                </a>
+                                
                                 
                             </span>
                         </div>
@@ -625,8 +607,8 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="tags/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">
-                            <span class="chip bg-color">Web前端开发</span>
+                        <a href="tags/Vue/">
+                            <span class="chip bg-color">Vue</span>
                         </a>
                         
                     </div>
@@ -636,30 +618,34 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="2019/11/10/JavaScript/JavaScript%E7%AE%80%E4%BB%8B/">
+                    <a href="2022/03/19/Vue/05_Vue%E7%BB%84%E4%BB%B6%E5%8C%96%E5%BC%80%E5%8F%91/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="JavaScript简介">
+                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Vue组件化开发">
                             
-                            <span class="card-title">JavaScript简介</span>
+                            <span class="card-title">Vue组件化开发</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                本篇章主要介绍JavaScript的特点、应用以及对于HTML文档的几种使用方法。
+                                Vue中的核心——组件开发，是一种非常nice的开发设计模式。
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-11-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-19
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fas fa-user fa-fw"></i>
-                                东锅锅
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="categories/Vue/" class="post-category">
+                                    Vue
+                                </a>
+                                
                                 
                             </span>
                         </div>
@@ -668,8 +654,8 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="tags/JavaScript/">
-                            <span class="chip bg-color">JavaScript</span>
+                        <a href="tags/Vue/">
+                            <span class="chip bg-color">Vue</span>
                         </a>
                         
                     </div>
@@ -679,30 +665,34 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="2019/11/10/HTML5+CSS3/%E6%96%87%E6%9C%AC/">
+                    <a href="2022/03/17/Vue/04_%E8%BF%87%E6%BB%A4%E5%99%A8%E5%92%8C%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E4%BB%A4/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="HTML文本">
+                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="过滤器和自定义指令">
                             
-                            <span class="card-title">HTML文本</span>
+                            <span class="card-title">过滤器和自定义指令</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                本章主要介绍文本里面的标题、文字、段落以及水平线的用法。
+                                Vue中的过滤器的使用、自定义指令的创建和计算属性简介
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-11-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-17
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fas fa-user fa-fw"></i>
-                                东锅锅
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="categories/Vue/" class="post-category">
+                                    Vue
+                                </a>
+                                
                                 
                             </span>
                         </div>
@@ -711,8 +701,8 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="tags/web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">
-                            <span class="chip bg-color">web前端开发</span>
+                        <a href="tags/Vue/">
+                            <span class="chip bg-color">Vue</span>
                         </a>
                         
                     </div>
@@ -722,30 +712,34 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="2019/10/27/HTML5+CSS3/HTML%E5%9F%BA%E7%A1%80/">
+                    <a href="2022/03/16/Vue/03_Vue%E7%9A%84%E5%86%85%E7%BD%AE%E6%8C%87%E4%BB%A4/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="HTML基础">
+                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Vue的内置指令">
                             
-                            <span class="card-title">HTML基础</span>
+                            <span class="card-title">Vue的内置指令</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                本片章从HTML的含义、发展历程以及HTML文件的基本结构来进行介绍，针对零基础入手的同学也是非常不错的。
+                                一些常用的Vue内置指令，可以使得某些操作更简单
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-10-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-16
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fas fa-user fa-fw"></i>
-                                东锅锅
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="categories/Vue/" class="post-category">
+                                    Vue
+                                </a>
+                                
                                 
                             </span>
                         </div>
@@ -754,8 +748,8 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="tags/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">
-                            <span class="chip bg-color">Web前端开发</span>
+                        <a href="tags/Vue/">
+                            <span class="chip bg-color">Vue</span>
                         </a>
                         
                     </div>
@@ -765,30 +759,34 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="2019/10/26/JavaScript/JavaScript%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/">
+                    <a href="2022/03/15/Vue/02_%E5%9F%BA%E4%BA%8EObject-defineProperty%E7%9A%84%E6%95%B0%E6%8D%AE%E4%BB%A3%E7%90%86/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="JavaScript语言基础">
+                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="基于Object.defineProperty的数据代理">
                             
-                            <span class="card-title">JavaScript语言基础</span>
+                            <span class="card-title">基于Object.defineProperty的数据代理</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                本章重点介绍了JavaScript语法当中的数据类型、变量与常量以及一些基本运算符的使用方法
+                                这篇博客主要介绍基于Object.defineProperty的数据代理
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-10-26
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-15
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fas fa-user fa-fw"></i>
-                                东锅锅
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="categories/Vue/" class="post-category">
+                                    Vue
+                                </a>
+                                
                                 
                             </span>
                         </div>
@@ -797,8 +795,196 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="tags/JavaScript/">
-                            <span class="chip bg-color">JavaScript</span>
+                        <a href="tags/Vue/">
+                            <span class="chip bg-color">Vue</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="2022/03/13/Vue/01_%E5%88%9D%E8%AF%86Vue/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="初识Vue">
+                            
+                            <span class="card-title">初识Vue</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                本片博客介绍Vue框架，对其有一个基本的认识，以及它的安装和使用。
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-13
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="categories/Vue/" class="post-category">
+                                    Vue
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="tags/Vue/">
+                            <span class="chip bg-color">Vue</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="2022/03/08/C%E6%84%8F%E8%AF%AD%E8%A8%80/03_%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E7%BC%93%E5%AD%98/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="输入输出缓存">
+                            
+                            <span class="card-title">输入输出缓存</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                C语言中的一些基本输入输出函数，基本都带有输入和输出的缓存，这些缓存的原理是什么呢？
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-08
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="categories/C%E8%AF%AD%E8%A8%80/" class="post-category">
+                                    C语言
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="tags/C%E8%AF%AD%E8%A8%80/">
+                            <span class="chip bg-color">C语言</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="2022/03/06/C%E6%84%8F%E8%AF%AD%E8%A8%80/02_%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="内存对齐">
+                            
+                            <span class="card-title">内存对齐</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                本篇博客主要介绍了在C语言中，一个结构体的大小计算的规则
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-06
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="categories/C%E8%AF%AD%E8%A8%80/" class="post-category">
+                                    C语言
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="tags/C%E8%AF%AD%E8%A8%80/">
+                            <span class="chip bg-color">C语言</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="2022/03/05/C%E6%84%8F%E8%AF%AD%E8%A8%80/01_%E4%BD%8D%E6%93%8D%E4%BD%9C/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="位操作">
+                            
+                            <span class="card-title">位操作</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                本篇博客主要讲述了C语言中的几个基本的位操作运算符
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-05
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="categories/C%E8%AF%AD%E8%A8%80/" class="post-category">
+                                    C语言
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="tags/C%E8%AF%AD%E8%A8%80/">
+                            <span class="chip bg-color">C语言</span>
                         </a>
                         
                     </div>
@@ -825,7 +1011,7 @@ $(function () {
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">6.5k</span>&nbsp;字
+                class="white-color">16.7k</span>&nbsp;字
             
             
             

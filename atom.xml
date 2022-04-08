@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dongge404.github.io/"/>
-  <updated>2019-10-28T10:55:34.275Z</updated>
+  <updated>2022-03-22T13:55:44.852Z</updated>
   <id>https://dongge404.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我们为什么要学习前端？</title>
-    <link href="https://dongge404.github.io/2019/11/10/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/"/>
-    <id>https://dongge404.github.io/2019/11/10/为什么学习前端/为什么要学习前端/</id>
-    <published>2019-11-10T07:58:05.765Z</published>
-    <updated>2019-10-28T10:55:34.275Z</updated>
+    <title>Vue脚手架</title>
+    <link href="https://dongge404.github.io/2022/03/20/Vue/06_Vue%E8%84%9A%E6%89%8B%E6%9E%B6/"/>
+    <id>https://dongge404.github.io/2022/03/20/Vue/06_Vue脚手架/</id>
+    <published>2022-03-20T11:36:29.000Z</published>
+    <updated>2022-03-22T13:55:44.852Z</updated>
     
     <summary type="html">
     
@@ -29,24 +29,26 @@
       
         
         
-          &lt;h2 id=&quot;前端开发是什么？-我们为什么要学习前端&quot;&gt;&lt;a href=&quot;#前端开发是什么？-我们为什么要学习前端&quot; class=&quot;headerlink&quot; title=&quot;前端开发是什么？ 我们为什么要学习前端 ?&quot;&gt;&lt;/a&gt;前端开发是什么？ 我们为什么要学习前端
+          &lt;h1 id=&quot;Vue-Cli&quot;&gt;&lt;a href=&quot;#Vue-Cli&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
     
+      <category term="Vue" scheme="https://dongge404.github.io/categories/Vue/"/>
     
-      <category term="Web前端开发" scheme="https://dongge404.github.io/tags/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="Vue" scheme="https://dongge404.github.io/tags/Vue/"/>
     
   </entry>
   
   <entry>
-    <title>JavaScript简介</title>
-    <link href="https://dongge404.github.io/2019/11/10/JavaScript/JavaScript%E7%AE%80%E4%BB%8B/"/>
-    <id>https://dongge404.github.io/2019/11/10/JavaScript/JavaScript简介/</id>
-    <published>2019-11-10T07:58:05.724Z</published>
-    <updated>2019-10-28T11:04:19.032Z</updated>
+    <title>Vue组件化开发</title>
+    <link href="https://dongge404.github.io/2022/03/19/Vue/05_Vue%E7%BB%84%E4%BB%B6%E5%8C%96%E5%BC%80%E5%8F%91/"/>
+    <id>https://dongge404.github.io/2022/03/19/Vue/05_Vue组件化开发/</id>
+    <published>2022-03-19T11:36:51.000Z</published>
+    <updated>2022-03-23T02:56:45.458Z</updated>
     
     <summary type="html">
     
@@ -54,24 +56,26 @@
       
         
         
-          &lt;h3 id=&quot;一、JavaScript简述&quot;&gt;&lt;a href=&quot;#一、JavaScript简述&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;组件分类&quot;&gt;&lt;a href=&quot;#组件分类&quot; class=&quot;headerlink&quot; title=&quot;组件分类&quot;&gt;&lt;/a&gt;组件分类&lt;/h1&gt;&lt;h2 id=&quot;非单文件组件&quot;&gt;&lt;a href=&quot;#非单文件组件&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
     
+      <category term="Vue" scheme="https://dongge404.github.io/categories/Vue/"/>
     
-      <category term="JavaScript" scheme="https://dongge404.github.io/tags/JavaScript/"/>
+    
+      <category term="Vue" scheme="https://dongge404.github.io/tags/Vue/"/>
     
   </entry>
   
   <entry>
-    <title>HTML文本</title>
-    <link href="https://dongge404.github.io/2019/11/10/HTML5+CSS3/%E6%96%87%E6%9C%AC/"/>
-    <id>https://dongge404.github.io/2019/11/10/HTML5+CSS3/文本/</id>
-    <published>2019-11-10T07:58:05.695Z</published>
-    <updated>2019-11-09T08:22:52.418Z</updated>
+    <title>过滤器和自定义指令</title>
+    <link href="https://dongge404.github.io/2022/03/17/Vue/04_%E8%BF%87%E6%BB%A4%E5%99%A8%E5%92%8C%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E4%BB%A4/"/>
+    <id>https://dongge404.github.io/2022/03/17/Vue/04_过滤器和自定义指令/</id>
+    <published>2022-03-17T14:00:40.000Z</published>
+    <updated>2022-03-22T13:39:23.783Z</updated>
     
     <summary type="html">
     
@@ -79,24 +83,27 @@
       
         
         
-          &lt;h1 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h1&gt;&lt;h3 id=&quot;1-1标题标记&quot;&gt;&lt;a href=&quot;#1-1标题标记&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;过滤器&quot;&gt;&lt;a href=&quot;#过滤器&quot; class=&quot;headerlink&quot; title=&quot;过滤器&quot;&gt;&lt;/a&gt;过滤器&lt;/h1&gt;&lt;p&gt;在Vue实例的配置对象中，有一个filters的节点配置对象。&lt;/p&gt;
+&lt;pre class=&quot;
         
       
     
     </summary>
     
     
+      <category term="Vue" scheme="https://dongge404.github.io/categories/Vue/"/>
     
-      <category term="web前端开发" scheme="https://dongge404.github.io/tags/web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="Vue" scheme="https://dongge404.github.io/tags/Vue/"/>
     
   </entry>
   
   <entry>
-    <title>HTML基础</title>
-    <link href="https://dongge404.github.io/2019/10/27/HTML5+CSS3/HTML%E5%9F%BA%E7%A1%80/"/>
-    <id>https://dongge404.github.io/2019/10/27/HTML5+CSS3/HTML基础/</id>
-    <published>2019-10-27T11:00:00.000Z</published>
-    <updated>2019-11-05T15:32:32.150Z</updated>
+    <title>Vue的内置指令</title>
+    <link href="https://dongge404.github.io/2022/03/16/Vue/03_Vue%E7%9A%84%E5%86%85%E7%BD%AE%E6%8C%87%E4%BB%A4/"/>
+    <id>https://dongge404.github.io/2022/03/16/Vue/03_Vue的内置指令/</id>
+    <published>2022-03-16T08:34:11.000Z</published>
+    <updated>2022-03-22T13:35:56.297Z</updated>
     
     <summary type="html">
     
@@ -104,24 +111,26 @@
       
         
         
-          &lt;h2 id=&quot;一、HTML概述&quot;&gt;&lt;a href=&quot;#一、HTML概述&quot; class=&quot;headerlink&quot; title=&quot;一、HTML概述&quot;&gt;&lt;/a&gt;一、HTML概述&lt;/h2&gt;&lt;h4 id=&quot;1、什么是HTML&quot;&gt;&lt;a href=&quot;#1、什么是HTML&quot;
+          &lt;h1 id=&quot;Vue中的一些内置指令&quot;&gt;&lt;a href=&quot;#Vue中的一些内置指令&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
     
+      <category term="Vue" scheme="https://dongge404.github.io/categories/Vue/"/>
     
-      <category term="Web前端开发" scheme="https://dongge404.github.io/tags/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="Vue" scheme="https://dongge404.github.io/tags/Vue/"/>
     
   </entry>
   
   <entry>
-    <title>JavaScript语言基础</title>
-    <link href="https://dongge404.github.io/2019/10/26/JavaScript/JavaScript%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/"/>
-    <id>https://dongge404.github.io/2019/10/26/JavaScript/JavaScript语言基础/</id>
-    <published>2019-10-26T13:02:02.000Z</published>
-    <updated>2019-10-28T11:06:23.058Z</updated>
+    <title>基于Object.defineProperty的数据代理</title>
+    <link href="https://dongge404.github.io/2022/03/15/Vue/02_%E5%9F%BA%E4%BA%8EObject-defineProperty%E7%9A%84%E6%95%B0%E6%8D%AE%E4%BB%A3%E7%90%86/"/>
+    <id>https://dongge404.github.io/2022/03/15/Vue/02_基于Object-defineProperty的数据代理/</id>
+    <published>2022-03-15T13:46:00.000Z</published>
+    <updated>2022-03-22T13:21:47.740Z</updated>
     
     <summary type="html">
     
@@ -129,15 +138,126 @@
       
         
         
-          &lt;h2 id=&quot;一、数据类型&quot;&gt;&lt;a href=&quot;#一、数据类型&quot; class=&quot;headerlink&quot; title=&quot;一、数据类型&quot;&gt;&lt;/a&gt;一、数据类型&lt;/h2&gt;&lt;p&gt;​       
+          &lt;h1 id=&quot;Object中的defineProperty函数&quot;&gt;&lt;a href=&quot;#Object中的defineProperty函数&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
     
+      <category term="Vue" scheme="https://dongge404.github.io/categories/Vue/"/>
     
-      <category term="JavaScript" scheme="https://dongge404.github.io/tags/JavaScript/"/>
+    
+      <category term="Vue" scheme="https://dongge404.github.io/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>初识Vue</title>
+    <link href="https://dongge404.github.io/2022/03/13/Vue/01_%E5%88%9D%E8%AF%86Vue/"/>
+    <id>https://dongge404.github.io/2022/03/13/Vue/01_初识Vue/</id>
+    <published>2022-03-13T04:12:30.000Z</published>
+    <updated>2022-03-22T13:18:13.869Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;初识Vue&quot;&gt;&lt;a href=&quot;#初识Vue&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Vue" scheme="https://dongge404.github.io/categories/Vue/"/>
+    
+    
+      <category term="Vue" scheme="https://dongge404.github.io/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>输入输出缓存</title>
+    <link href="https://dongge404.github.io/2022/03/08/C%E6%84%8F%E8%AF%AD%E8%A8%80/03_%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E7%BC%93%E5%AD%98/"/>
+    <id>https://dongge404.github.io/2022/03/08/C意语言/03_输入输出缓存/</id>
+    <published>2022-03-08T13:03:29.000Z</published>
+    <updated>2022-03-22T14:02:30.442Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;windows系统运行代码&quot;&gt;&lt;a href=&quot;#windows系统运行代码&quot; class=&quot;headerlink&quot; title=&quot;windows系统运行代码&quot;&gt;&lt;/a&gt;windows系统运行代码&lt;/h1&gt;&lt;pre class=&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C语言" scheme="https://dongge404.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="C语言" scheme="https://dongge404.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>内存对齐</title>
+    <link href="https://dongge404.github.io/2022/03/06/C%E6%84%8F%E8%AF%AD%E8%A8%80/02_%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/"/>
+    <id>https://dongge404.github.io/2022/03/06/C意语言/02_内存对齐/</id>
+    <published>2022-03-06T05:10:45.000Z</published>
+    <updated>2022-03-22T14:01:46.114Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;C语言中的数据存储&quot;&gt;&lt;a href=&quot;#C语言中的数据存储&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C语言" scheme="https://dongge404.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="C语言" scheme="https://dongge404.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>位操作</title>
+    <link href="https://dongge404.github.io/2022/03/05/C%E6%84%8F%E8%AF%AD%E8%A8%80/01_%E4%BD%8D%E6%93%8D%E4%BD%9C/"/>
+    <id>https://dongge404.github.io/2022/03/05/C意语言/01_位操作/</id>
+    <published>2022-03-05T13:38:19.000Z</published>
+    <updated>2022-04-08T10:14:33.352Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;总所周知，计算机中最基本的处理单位是字节（Byte），一个字节等于八个比特。即1B = 8bit。&lt;/p&gt;
+&lt;h1 id=&quot;十进制和二进制&quot;&gt;&lt;a href=&quot;#十进制和二进制&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C语言" scheme="https://dongge404.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="C语言" scheme="https://dongge404.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
     
   </entry>
   
