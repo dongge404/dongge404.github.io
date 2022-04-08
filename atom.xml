@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dongge404.github.io/"/>
-  <updated>2019-11-09T08:22:52.418Z</updated>
+  <updated>2019-10-28T10:55:34.275Z</updated>
   <id>https://dongge404.github.io/</id>
   
   <author>
@@ -17,10 +17,60 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>我们为什么要学习前端？</title>
+    <link href="https://dongge404.github.io/2019/11/10/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/"/>
+    <id>https://dongge404.github.io/2019/11/10/为什么学习前端/为什么要学习前端/</id>
+    <published>2019-11-10T07:58:05.765Z</published>
+    <updated>2019-10-28T10:55:34.275Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;前端开发是什么？-我们为什么要学习前端&quot;&gt;&lt;a href=&quot;#前端开发是什么？-我们为什么要学习前端&quot; class=&quot;headerlink&quot; title=&quot;前端开发是什么？ 我们为什么要学习前端 ?&quot;&gt;&lt;/a&gt;前端开发是什么？ 我们为什么要学习前端
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Web前端开发" scheme="https://dongge404.github.io/tags/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript简介</title>
+    <link href="https://dongge404.github.io/2019/11/10/JavaScript/JavaScript%E7%AE%80%E4%BB%8B/"/>
+    <id>https://dongge404.github.io/2019/11/10/JavaScript/JavaScript简介/</id>
+    <published>2019-11-10T07:58:05.724Z</published>
+    <updated>2019-10-28T11:04:19.032Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;一、JavaScript简述&quot;&gt;&lt;a href=&quot;#一、JavaScript简述&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaScript" scheme="https://dongge404.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>HTML文本</title>
-    <link href="https://dongge404.github.io/2019/11/09/HTML5+CSS3/%E6%96%87%E6%9C%AC/"/>
-    <id>https://dongge404.github.io/2019/11/09/HTML5+CSS3/文本/</id>
-    <published>2019-11-09T07:22:40.151Z</published>
+    <link href="https://dongge404.github.io/2019/11/10/HTML5+CSS3/%E6%96%87%E6%9C%AC/"/>
+    <id>https://dongge404.github.io/2019/11/10/HTML5+CSS3/文本/</id>
+    <published>2019-11-10T07:58:05.695Z</published>
     <updated>2019-11-09T08:22:52.418Z</updated>
     
     <summary type="html">
@@ -88,56 +138,6 @@
     
     
       <category term="JavaScript" scheme="https://dongge404.github.io/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaScript简介</title>
-    <link href="https://dongge404.github.io/2019/10/25/JavaScript/JavaScript%E7%AE%80%E4%BB%8B/"/>
-    <id>https://dongge404.github.io/2019/10/25/JavaScript/JavaScript简介/</id>
-    <published>2019-10-25T02:46:29.072Z</published>
-    <updated>2019-10-28T11:04:19.032Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;一、JavaScript简述&quot;&gt;&lt;a href=&quot;#一、JavaScript简述&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaScript" scheme="https://dongge404.github.io/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我们为什么要学习前端？</title>
-    <link href="https://dongge404.github.io/2019/10/24/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/"/>
-    <id>https://dongge404.github.io/2019/10/24/为什么学习前端/为什么要学习前端/</id>
-    <published>2019-10-24T12:19:54.822Z</published>
-    <updated>2019-10-28T10:55:34.275Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;前端开发是什么？-我们为什么要学习前端&quot;&gt;&lt;a href=&quot;#前端开发是什么？-我们为什么要学习前端&quot; class=&quot;headerlink&quot; title=&quot;前端开发是什么？ 我们为什么要学习前端 ?&quot;&gt;&lt;/a&gt;前端开发是什么？ 我们为什么要学习前端
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Web前端开发" scheme="https://dongge404.github.io/tags/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
